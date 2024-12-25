@@ -1,0 +1,16 @@
+main{
+    display: inline-flex;
+    width: 100%;
+}
+
+#rightSide{
+    width: 60%;
+    justify-self: end;
+    justify-items: end;
+}
+
+#leftSide{
+    width: 40%;
+    justify-self: start;
+    justify-items: start;
+}
