@@ -1,0 +1,88 @@
+
+body{
+    background-color: grey ;
+}
+
+#header{
+    justify-self: center;
+    background-color: cadetblue;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+}
+
+main{
+    display: inline-flex;
+    width: 100%;
+}
+
+#rightSide{
+    width: 60%;
+    justify-self: end;
+    justify-items: start;
+    margin-top: 2%;
+
+}
+
+#search{
+    background-color: cadetblue;
+    border-style: solid;
+    padding: 2%;
+}
+
+#previousSearches{
+    margin-top: 2%;
+    background-color: cadetblue;
+    border-style: solid;
+    padding-left: 15%;
+    padding-right: 15%;
+    a{
+        justify-self: center;
+        padding-inline-start: 0px;
+        text-align: center;
+        width: 100%;
+        padding: 9%;
+        border-radius: 30%;
+        border-style: solid;
+        border-color: #2f4f4f;
+        background-color: #778899;
+        display: block;
+        margin: 4%;
+        color: black;
+        text-decoration: solid;
+    }
+}
+
+#singleDayForcast{
+    width: 100%;
+}
+#singleForcast{
+    border-style: solid;
+    width: 60%;
+    margin-right: 2%;
+    background-color: cadetblue;
+    margin-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#fiveDayForcast{
+    display: inline-flex;
+}
+#forcast{
+    margin-right: 10%;
+    border-style: solid;
+    width: fit-content;
+    background-color: cadetblue;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    padding: 20%;
+}
+#leftSide{
+    margin-top: 2%;
+    width: 40%;
+    justify-self: start;
+    justify-items: start;
+}

@@ -3,28 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
+    <h1 id="header">Weather Dashboard</h1>
     <main>
         <section id="leftSide">
             <div id="search">
                 <h2>Search for a City: </h2>
-                <input type="text" placeholder="City">
-                <button class="button" type="button">Search</button>
+                <input id="searchBar" type="text" placeholder="City">
+                <button id="submitSearch" class="button" type="button">Search</button>
             </div>
             <div id="previousSearches">
-                <ul>test city</ul>
-                <ul>test city</ul>
-                <ul>test city</ul>
-                <ul>test city</ul>
-                <ul>test city</ul>
-                <ul>test city</ul>
+                <a href="">Atlanta</a>
+                <a href="">Denver</a>
+                <a href="">Seattle</a>
+                <a href="">San Fransisco</a>
+                <a href="">New York</a>
+                <a href="">Chicago</a>
             </div>
         </section>
         <section id="rightSide">
-            <div id="singleDayForcast"></div>
+            <div id="singleDayForcast">
+                <div id="singleForcast">
+                    <h2 id="date">date</h2>
+                    <img id="img">
+                    <h3 id="temp">temp</h3>
+                    <h3 id="wind">wind</h3>
+                    <h3 id="humidity">humidity</h3>
+                </div>
+            </div>
             <div id="fiveDayForcast">
                 <div id="forcast">
                     <h3 id="date">date</h3>
@@ -58,4 +67,5 @@
         </section>
     </main>
 </body>
+<script src="./assets/js/script.js"></script>
 </html>
