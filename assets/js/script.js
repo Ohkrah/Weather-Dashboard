@@ -43,6 +43,7 @@ function getCoordinates() {
     console.log('Latitude:', lat);
     console.log('Longitude:', lon);
     // You can now use lat and lon outside the fetch function
+    return (lat,lon);
 });
 
     //Sanity checks    
@@ -54,13 +55,13 @@ function getCoordinates() {
     // console.log('lat + lon' + lat + lon);
     
 
-    
+    return (lat,lon);
     
 };
 
 
+
 function getWeatherData(lat,lon) {
-    fetchLocationData((lat,lon))
     console.log(lat,lon);
     
     const weatherData = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${secret}`
